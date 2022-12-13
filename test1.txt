@@ -1,0 +1,6 @@
+Describe what is VLAN and how it works?
+//VLAN mean Virtual Local Area Network and it is a logical group of devices. It is a group of devices which are connected to the same switch. VLANs are used to separate the broadcast domains. VLANs are created using VTP protocol.
+What is the difference between VLAN and VTP?
+//VLAN is a logical group of devices and VTP is a protocol which is used to create and manage VLANs.
+What do we mean by desirable and auto ports?
+//Desirable ports are those ports which are configured as trunk ports and auto ports are those ports which are configured as access ports.

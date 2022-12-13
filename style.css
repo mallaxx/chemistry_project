@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:black;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    background:#7797d0;
+    position:fixed;
+    top:0px;
+    width:100%;
+    height:100px;
+}
+#image{
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+#image1{
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+.navbar h2{
+    text-align:center;
+    padding:10px;
+}
+.navbar .navlink{
+    text-align:center;
+    padding:10px;
+}
+.navbar .navlink a{
+    text-decoration:none;
+    color:white;
+    padding:10px;
+    font-size:20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 10px;
+    text-align:center;
+}
+.content{
+    /* height:100vh; */
+    width:80%;
+    margin:auto;
+    background:white;
+    color:black;
+    padding:30px;
+}
+.content h1{
+    text-align:center;
+    padding:20px;
+}
+.content h2{
+    padding:20px;
+}
+.content p{
+    padding-left:50px;
+}
+.content ul{
+    padding-left:50px;
+}
+.fire_safety{
+    border-radius: 50px 50px 0px 0px;
+    margin-top:100px;
+    height:110vh;
+}
+.fire_extinguisher{
+    /* height:570vh; */
+    border-radius: 0px 0px 50px 50px;
+}
+.fire_safety img{
+    /* align it center */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+
+}
+
+.footer{
+    height:50px;
+    margin-top:50px;
+    width:100%;
+    text-align:center;
+}
+.on-display{
+    background-color:#7797d0;
+    height:220px;
+    width:70%;
+    position: relative;
+    top: -140px;
+    right: -300px;
+    border-radius:30px;
+    color:white;
+    padding: 10px;
+    font-size: 20px;
+    display:none;
+    
+}
+
+#pass-image{
+    /* reduce the size of the image */
+    width: 30%;
+    /* align it center */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#pass-image1{
+    /* reduce the size of the image */
+    width: 30%;
+    /* align it center */
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.fire-content{
+    display:flex;
+}
+.fire-class{
+    background-color:#7797d0;
+    height:400px;
+    width:50%;
+    top: 40px;
+    right: -650px;
+    border-radius:30px;
+    color:white;
+    padding: 25px;
+    font-size: 20px;
+
+}
+#working-fire-extinguisher{
+    width:50%;
+    /* align it center */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
